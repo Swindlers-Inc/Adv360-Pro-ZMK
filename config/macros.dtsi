@@ -2,7 +2,7 @@ macro_gui_space: macro_gui_space{
 compatible = "zmk,behavior-macro";
 label = "macro_gui_space";
 #binding-cells = <0>;
-bindings = <&kp SPACE>, <&kp RGUI>;
+bindings = <&kp SPACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
