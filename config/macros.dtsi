@@ -1,3 +1,9 @@
+macro_alt_esc: macro_alt_esc{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_esc";
+#binding-cells = <0>;
+bindings = <&sk LALT>, <&kp ESC>;
+};
 macro_gui_space: macro_gui_space{
 compatible = "zmk,behavior-macro";
 label = "macro_gui_space";
